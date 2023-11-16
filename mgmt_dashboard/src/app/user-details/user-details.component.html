@@ -1,0 +1,32 @@
+<div>
+  <h2>User Details</h2>
+  <input type="text" [(ngModel)]="searchInput" placeholder="Search for users..." (input)="searchUsers()">
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>ID</th>
+        <th>Creation Date</th>
+        <!-- Add other user details as needed -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of filteredUsers">
+        <td>{{ user.username }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.phone }}</td>
+        <td>{{ user.id }}</td>
+        <td>{{ user.creation_date | date: 'medium' }}</td>
+        <!-- Display other user details as needed -->
+        <td>
+          <button (click)="openUserReportModal(user)">Generate Report</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+  

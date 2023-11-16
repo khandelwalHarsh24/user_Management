@@ -1,0 +1,19 @@
+<div>
+    <h2>Account Creation</h2>
+    <form (ngSubmit)="createAccount()">
+      <label for="username">Username:</label>
+    <input type="text" id="username" name="username" [(ngModel)]="newUser.username" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" [(ngModel)]="newUser.email" required>
+
+    <label for="phone">Phone:</label>
+    <input type="text" id="phone" name="phone" [(ngModel)]="newUser.phone">
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" [(ngModel)]="newUser.password" required>
+
+    <button type="submit">Create Account</button>
+    </form>
+  </div>
+  
