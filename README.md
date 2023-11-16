@@ -30,10 +30,10 @@ git clone git@github.com:khandelwalHarsh24/user_Management.git
 ## Screenshots
 
 
-![UserDetail Page](screenshot/userDetail.png)
+![UserDetail Page](screenshot/userDetails.png)
 
-![Account Creation Page](screenshot/accountCreation.png)
+![Account Creation Page](screenshot/accountCreations.png)
 
-![Filter Page](screenshot/Filter1.png)
+![Filter Page](screenshot/Filters1.png)
 
-![Filter Page](screenshot/Filter2.png)
+![Filter Page](screenshot/Filters2.png)
