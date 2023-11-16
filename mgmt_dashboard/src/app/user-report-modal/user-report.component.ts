@@ -27,6 +27,7 @@ export class UserReportModalComponent {
 
   generateReport(): void {
     this.data.generateReport = true;
+    alert('Report Generation Done');
     this.dialogRef.close(this.data);
   }
 }
